@@ -46,9 +46,9 @@ import net.sf.freecol.common.option.PercentageOption;
  */
 //public class SoundPlayer {
 
-    private static final Logger logger = Logger.getLogger(SoundPlayer.class.getName());
+  //  private static final Logger logger = Logger.getLogger(SoundPlayer.class.getName());
 
-    private Mixer mixer;
+    //private Mixer mixer;
     private int volume;
     private final SoundPlayerThread soundPlayerThread;
 

@@ -44,13 +44,13 @@ import net.sf.freecol.common.option.PercentageOption;
 /**
  * Stripped down class for playing sound.
  */
-//public class SoundPlayer {
+public class SoundPlayer {
 
-  //  private static final Logger logger = Logger.getLogger(SoundPlayer.class.getName());
+    private static final Logger logger = Logger.getLogger(SoundPlayer.class.getName());
 
-    //private Mixer mixer;
-    //private int volume;
-   // private final SoundPlayerThread soundPlayerThread;
+    private Mixer mixer;
+    private int volume;
+    private final SoundPlayerThread soundPlayerThread;
 
 
     /**
